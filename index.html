@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <style>
+      #title {
+        color: red;
+        font-size: 20px;
+      }
+      .content {
+        color: green;
+        font-size: 16px;
+      }
+      .content-blue {
+        color: blue;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      .tick {
+        width: 15px;
+        border: 2px solid black;
+        height: 15px;
+        display: inline-block;
+        text-align: center;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    Name:
+    <input id="valueTask" placeholder="please type task" />
+    <button id="getData">Save Task</button>
+    <button id="saveChange" style="display: none">Save Change</button>
+    <br />
+    <hr />
+    <div id="pagination"></div>
+    <hr />
+    <div id="value"></div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
